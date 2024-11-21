@@ -1,88 +1,176 @@
-## Composition tricks (composition)
+## Lens Position (lenspos)
 
 ### Yandex ART
 
-![](YA_натюрморт_яблока_маслом,_помести_объект_немного_левее_центра_0.png) | ![](YA_натюрморт_яблока_маслом,_симметричная_композиция_0.png)
------|-----
-натюрморт яблока маслом, помести объект немного левее центра | натюрморт яблока маслом, симметричная композиция
+[![](YA_камера_на_уровне_глаз,_студийный_фотопортрет_красивой_женщины_0.png)](YA_камера_на_уровне_глаз,_студийный_фотопортрет_красивой_женщины_0.png) | [![](YA_вид_от_пола,_студийный_фотопортрет_красивой_женщины_0.png)](YA_вид_от_пола,_студийный_фотопортрет_красивой_женщины_0.png) | [![](YA_взгляд_сверху,_студийный_фотопортрет_красивой_женщины_0.png)](YA_взгляд_сверху,_студийный_фотопортрет_красивой_женщины_0.png)
+-----|-----|-----
+камера на уровне глаз, студийный фотопортрет красивой женщины | вид от пола, студийный фотопортрет красивой женщины | взгляд сверху, студийный фотопортрет красивой женщины
 
 ### Stable Diffusion 2
 
-![](sd2_still_life_oil_painting_of_an_apple,_place_the_subject_slightly_to_the_left_0.png) | ![](sd2_still_life_oil_painting_of_an_apple,_symmetrical_composition_0.png)
------|-----
-![](sd2_still_life_oil_painting_of_an_apple,_place_the_subject_slightly_to_the_left_1.png) | ![](sd2_still_life_oil_painting_of_an_apple,_symmetrical_composition_1.png)
-![](sd2_still_life_oil_painting_of_an_apple,_place_the_subject_slightly_to_the_left_2.png) | ![](sd2_still_life_oil_painting_of_an_apple,_symmetrical_composition_2.png)
-still life oil painting of an apple, place the subject slightly to the left | still life oil painting of an apple, symmetrical composition
+[![](sd2_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](sd2_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_0.png) | [![](sd2_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](sd2_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_0.png) | [![](sd2_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](sd2_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_0.png)
+-----|-----|-----
+[![](sd2_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_1.png)](sd2_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_1.png) | [![](sd2_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_1.png)](sd2_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_1.png) | [![](sd2_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_1.png)](sd2_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_1.png)
+[![](sd2_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_2.png)](sd2_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_2.png) | [![](sd2_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_2.png)](sd2_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_2.png) | [![](sd2_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_2.png)](sd2_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_2.png)
+view from the top, portrait studio photograph of a beautiful woman | eye-level camera view, portrait studio photograph of a beautiful woman | camera view from the floor, portrait studio photograph of a beautiful woman
 
 ### Stable Diffusion XL
 
-![](sdxl_still_life_oil_painting_of_an_apple,_place_the_subject_slightly_to_the_left_0.png) | ![](sdxl_still_life_oil_painting_of_an_apple,_symmetrical_composition_0.png)
------|-----
-![](sdxl_still_life_oil_painting_of_an_apple,_place_the_subject_slightly_to_the_left_1.png) | ![](sdxl_still_life_oil_painting_of_an_apple,_symmetrical_composition_1.png)
-![](sdxl_still_life_oil_painting_of_an_apple,_place_the_subject_slightly_to_the_left_2.png) | ![](sdxl_still_life_oil_painting_of_an_apple,_symmetrical_composition_2.png)
-still life oil painting of an apple, place the subject slightly to the left | still life oil painting of an apple, symmetrical composition
+[![](sdxl_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](sdxl_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_0.png) | [![](sdxl_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](sdxl_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_0.png) | [![](sdxl_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](sdxl_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_0.png)
+-----|-----|-----
+[![](sdxl_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_1.png)](sdxl_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_1.png) | [![](sdxl_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_1.png)](sdxl_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_1.png) | [![](sdxl_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_1.png)](sdxl_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_1.png)
+[![](sdxl_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_2.png)](sdxl_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_2.png) | [![](sdxl_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_2.png)](sdxl_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_2.png) | [![](sdxl_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_2.png)](sdxl_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_2.png)
+view from the top, portrait studio photograph of a beautiful woman | eye-level camera view, portrait studio photograph of a beautiful woman | camera view from the floor, portrait studio photograph of a beautiful woman
 
 ### Kandinsky 2
 
-![](k22_still_life_oil_painting_of_an_apple,_place_the_subject_slightly_to_the_left_0.png) | ![](k22_still_life_oil_painting_of_an_apple,_symmetrical_composition_0.png)
------|-----
-![](k22_still_life_oil_painting_of_an_apple,_place_the_subject_slightly_to_the_left_1.png) | ![](k22_still_life_oil_painting_of_an_apple,_symmetrical_composition_1.png)
-![](k22_still_life_oil_painting_of_an_apple,_place_the_subject_slightly_to_the_left_2.png) | ![](k22_still_life_oil_painting_of_an_apple,_symmetrical_composition_2.png)
-still life oil painting of an apple, place the subject slightly to the left | still life oil painting of an apple, symmetrical composition
+[![](k22_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](k22_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_0.png) | [![](k22_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](k22_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_0.png) | [![](k22_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](k22_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_0.png)
+-----|-----|-----
+[![](k22_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_1.png)](k22_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_1.png) | [![](k22_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_1.png)](k22_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_1.png) | [![](k22_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_1.png)](k22_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_1.png)
+[![](k22_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_2.png)](k22_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_2.png) | [![](k22_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_2.png)](k22_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_2.png) | [![](k22_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_2.png)](k22_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_2.png)
+view from the top, portrait studio photograph of a beautiful woman | eye-level camera view, portrait studio photograph of a beautiful woman | camera view from the floor, portrait studio photograph of a beautiful woman
 
 ### Flux
 
-![](flux_still_life_oil_painting_of_an_apple,_place_the_subject_slightly_to_the_left_0.png) | ![](flux_still_life_oil_painting_of_an_apple,_symmetrical_composition_0.png)
------|-----
-still life oil painting of an apple, place the subject slightly to the left | still life oil painting of an apple, symmetrical composition
+[![](flux_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](flux_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_0.png) | [![](flux_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](flux_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_0.png) | [![](flux_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](flux_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_0.png)
+-----|-----|-----
+view from the top, portrait studio photograph of a beautiful woman | eye-level camera view, portrait studio photograph of a beautiful woman | camera view from the floor, portrait studio photograph of a beautiful woman
 
 ### Kandinsky 3
 
-![](k3_still_life_oil_painting_of_an_apple,_place_the_subject_slightly_to_the_left_0.png) | ![](k3_still_life_oil_painting_of_an_apple,_symmetrical_composition_0.png)
------|-----
-still life oil painting of an apple, place the subject slightly to the left | still life oil painting of an apple, symmetrical composition
+[![](k3_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](k3_view_from_the_top,_portrait_studio_photograph_of_a_beautiful_woman_0.png) | [![](k3_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](k3_eye-level_camera_view,_portrait_studio_photograph_of_a_beautiful_woman_0.png) | [![](k3_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_0.png)](k3_camera_view_from_the_floor,_portrait_studio_photograph_of_a_beautiful_woman_0.png)
+-----|-----|-----
+view from the top, portrait studio photograph of a beautiful woman | eye-level camera view, portrait studio photograph of a beautiful woman | camera view from the floor, portrait studio photograph of a beautiful woman
 
 ## Using different materials (materials)
 
 ### Yandex ART
 
-![](YA_статуя_величественной_кошки_в_музее,_полупрозрачный_материал_0.png) | ![](YA_статуя_величественной_кошки_в_музее,_каменный_материал_0.png) | ![](YA_статуя_величественной_кошки_в_музее,_деревянный_материал_0.png)
------|-----|-----
-статуя величественной кошки в музее, полупрозрачный материал | статуя величественной кошки в музее, каменный материал | статуя величественной кошки в музее, деревянный материал
+[![](YA_статуя_величественной_кошки,_полупрозрачный_материал_0.png)](YA_статуя_величественной_кошки,_полупрозрачный_материал_0.png) | [![](YA_статуя_величественной_кошки,_каменный_0.png)](YA_статуя_величественной_кошки,_каменный_0.png) | [![](YA_статуя_величественной_кошки,_деревянный_0.png)](YA_статуя_величественной_кошки,_деревянный_0.png) | [![](YA_статуя_величественной_кошки,_зеркальная_поверхность_0.png)](YA_статуя_величественной_кошки,_зеркальная_поверхность_0.png) | [![](YA_статуя_величественной_кошки,_отражение_в_озере_0.png)](YA_статуя_величественной_кошки,_отражение_в_озере_0.png)
+-----|-----|-----|-----|-----
+статуя величественной кошки, полупрозрачный материал | статуя величественной кошки, каменный | статуя величественной кошки, деревянный | статуя величественной кошки, зеркальная поверхность | статуя величественной кошки, отражение в озере
 
 ### Stable Diffusion 2
 
-![](sd2_a_statue_of_a_magestic_cat_inside_the_museum,_translucent_material_0.png) | ![](sd2_a_statue_of_a_magestic_cat_inside_the_museum,_rough_stone_material_0.png) | ![](sd2_a_statue_of_a_magestic_cat_inside_the_museum,_wood_material_0.png)
------|-----|-----
-![](sd2_a_statue_of_a_magestic_cat_inside_the_museum,_translucent_material_1.png) | ![](sd2_a_statue_of_a_magestic_cat_inside_the_museum,_rough_stone_material_1.png) | ![](sd2_a_statue_of_a_magestic_cat_inside_the_museum,_wood_material_1.png)
-![](sd2_a_statue_of_a_magestic_cat_inside_the_museum,_translucent_material_2.png) | ![](sd2_a_statue_of_a_magestic_cat_inside_the_museum,_rough_stone_material_2.png) | ![](sd2_a_statue_of_a_magestic_cat_inside_the_museum,_wood_material_2.png)
-a statue of a magestic cat inside the museum, translucent material | a statue of a magestic cat inside the museum, rough stone material | a statue of a magestic cat inside the museum, wood material
+[![](sd2_statue_of_a_magestic_cat,_translucent_material_0.png)](sd2_statue_of_a_magestic_cat,_translucent_material_0.png) | [![](sd2_statue_of_a_magestic_cat,_mirror_surface_0.png)](sd2_statue_of_a_magestic_cat,_mirror_surface_0.png) | [![](sd2_statue_of_a_magestic_cat,_reflection_in_the_lake_0.png)](sd2_statue_of_a_magestic_cat,_reflection_in_the_lake_0.png) | [![](sd2_statue_of_a_magestic_cat,_rough_stone_0.png)](sd2_statue_of_a_magestic_cat,_rough_stone_0.png) | [![](sd2_statue_of_a_magestic_cat,_wood_0.png)](sd2_statue_of_a_magestic_cat,_wood_0.png)
+-----|-----|-----|-----|-----
+[![](sd2_statue_of_a_magestic_cat,_translucent_material_1.png)](sd2_statue_of_a_magestic_cat,_translucent_material_1.png) | [![](sd2_statue_of_a_magestic_cat,_mirror_surface_1.png)](sd2_statue_of_a_magestic_cat,_mirror_surface_1.png) | [![](sd2_statue_of_a_magestic_cat,_reflection_in_the_lake_1.png)](sd2_statue_of_a_magestic_cat,_reflection_in_the_lake_1.png) | [![](sd2_statue_of_a_magestic_cat,_rough_stone_1.png)](sd2_statue_of_a_magestic_cat,_rough_stone_1.png) | [![](sd2_statue_of_a_magestic_cat,_wood_1.png)](sd2_statue_of_a_magestic_cat,_wood_1.png)
+[![](sd2_statue_of_a_magestic_cat,_translucent_material_2.png)](sd2_statue_of_a_magestic_cat,_translucent_material_2.png) | [![](sd2_statue_of_a_magestic_cat,_mirror_surface_2.png)](sd2_statue_of_a_magestic_cat,_mirror_surface_2.png) | [![](sd2_statue_of_a_magestic_cat,_reflection_in_the_lake_2.png)](sd2_statue_of_a_magestic_cat,_reflection_in_the_lake_2.png) | [![](sd2_statue_of_a_magestic_cat,_rough_stone_2.png)](sd2_statue_of_a_magestic_cat,_rough_stone_2.png) | [![](sd2_statue_of_a_magestic_cat,_wood_2.png)](sd2_statue_of_a_magestic_cat,_wood_2.png)
+statue of a magestic cat, translucent material | statue of a magestic cat, mirror surface | statue of a magestic cat, reflection in the lake | statue of a magestic cat, rough stone | statue of a magestic cat, wood
 
 ### Stable Diffusion XL
 
-![](sdxl_a_statue_of_a_magestic_cat_inside_the_museum,_translucent_material_0.png) | ![](sdxl_a_statue_of_a_magestic_cat_inside_the_museum,_rough_stone_material_0.png) | ![](sdxl_a_statue_of_a_magestic_cat_inside_the_museum,_wood_material_0.png)
------|-----|-----
-![](sdxl_a_statue_of_a_magestic_cat_inside_the_museum,_translucent_material_1.png) | ![](sdxl_a_statue_of_a_magestic_cat_inside_the_museum,_rough_stone_material_1.png) | ![](sdxl_a_statue_of_a_magestic_cat_inside_the_museum,_wood_material_1.png)
-![](sdxl_a_statue_of_a_magestic_cat_inside_the_museum,_translucent_material_2.png) | ![](sdxl_a_statue_of_a_magestic_cat_inside_the_museum,_rough_stone_material_2.png) | ![](sdxl_a_statue_of_a_magestic_cat_inside_the_museum,_wood_material_2.png)
-a statue of a magestic cat inside the museum, translucent material | a statue of a magestic cat inside the museum, rough stone material | a statue of a magestic cat inside the museum, wood material
+[![](sdxl_statue_of_a_magestic_cat,_translucent_material_0.png)](sdxl_statue_of_a_magestic_cat,_translucent_material_0.png) | [![](sdxl_statue_of_a_magestic_cat,_mirror_surface_0.png)](sdxl_statue_of_a_magestic_cat,_mirror_surface_0.png) | [![](sdxl_statue_of_a_magestic_cat,_reflection_in_the_lake_0.png)](sdxl_statue_of_a_magestic_cat,_reflection_in_the_lake_0.png) | [![](sdxl_statue_of_a_magestic_cat,_rough_stone_0.png)](sdxl_statue_of_a_magestic_cat,_rough_stone_0.png) | [![](sdxl_statue_of_a_magestic_cat,_wood_0.png)](sdxl_statue_of_a_magestic_cat,_wood_0.png)
+-----|-----|-----|-----|-----
+[![](sdxl_statue_of_a_magestic_cat,_translucent_material_1.png)](sdxl_statue_of_a_magestic_cat,_translucent_material_1.png) | [![](sdxl_statue_of_a_magestic_cat,_mirror_surface_1.png)](sdxl_statue_of_a_magestic_cat,_mirror_surface_1.png) | [![](sdxl_statue_of_a_magestic_cat,_reflection_in_the_lake_1.png)](sdxl_statue_of_a_magestic_cat,_reflection_in_the_lake_1.png) | [![](sdxl_statue_of_a_magestic_cat,_rough_stone_1.png)](sdxl_statue_of_a_magestic_cat,_rough_stone_1.png) | [![](sdxl_statue_of_a_magestic_cat,_wood_1.png)](sdxl_statue_of_a_magestic_cat,_wood_1.png)
+[![](sdxl_statue_of_a_magestic_cat,_translucent_material_2.png)](sdxl_statue_of_a_magestic_cat,_translucent_material_2.png) | [![](sdxl_statue_of_a_magestic_cat,_mirror_surface_2.png)](sdxl_statue_of_a_magestic_cat,_mirror_surface_2.png) | [![](sdxl_statue_of_a_magestic_cat,_reflection_in_the_lake_2.png)](sdxl_statue_of_a_magestic_cat,_reflection_in_the_lake_2.png) | [![](sdxl_statue_of_a_magestic_cat,_rough_stone_2.png)](sdxl_statue_of_a_magestic_cat,_rough_stone_2.png) | [![](sdxl_statue_of_a_magestic_cat,_wood_2.png)](sdxl_statue_of_a_magestic_cat,_wood_2.png)
+statue of a magestic cat, translucent material | statue of a magestic cat, mirror surface | statue of a magestic cat, reflection in the lake | statue of a magestic cat, rough stone | statue of a magestic cat, wood
 
 ### Kandinsky 2
 
-![](k22_a_statue_of_a_magestic_cat_inside_the_museum,_translucent_material_0.png) | ![](k22_a_statue_of_a_magestic_cat_inside_the_museum,_rough_stone_material_0.png) | ![](k22_a_statue_of_a_magestic_cat_inside_the_museum,_wood_material_0.png)
------|-----|-----
-![](k22_a_statue_of_a_magestic_cat_inside_the_museum,_translucent_material_1.png) | ![](k22_a_statue_of_a_magestic_cat_inside_the_museum,_rough_stone_material_1.png) | ![](k22_a_statue_of_a_magestic_cat_inside_the_museum,_wood_material_1.png)
-![](k22_a_statue_of_a_magestic_cat_inside_the_museum,_translucent_material_2.png) | ![](k22_a_statue_of_a_magestic_cat_inside_the_museum,_rough_stone_material_2.png) | ![](k22_a_statue_of_a_magestic_cat_inside_the_museum,_wood_material_2.png)
-a statue of a magestic cat inside the museum, translucent material | a statue of a magestic cat inside the museum, rough stone material | a statue of a magestic cat inside the museum, wood material
+[![](k22_statue_of_a_magestic_cat,_translucent_material_0.png)](k22_statue_of_a_magestic_cat,_translucent_material_0.png) | [![](k22_statue_of_a_magestic_cat,_mirror_surface_0.png)](k22_statue_of_a_magestic_cat,_mirror_surface_0.png) | [![](k22_statue_of_a_magestic_cat,_reflection_in_the_lake_0.png)](k22_statue_of_a_magestic_cat,_reflection_in_the_lake_0.png) | [![](k22_statue_of_a_magestic_cat,_rough_stone_0.png)](k22_statue_of_a_magestic_cat,_rough_stone_0.png) | [![](k22_statue_of_a_magestic_cat,_wood_0.png)](k22_statue_of_a_magestic_cat,_wood_0.png)
+-----|-----|-----|-----|-----
+[![](k22_statue_of_a_magestic_cat,_translucent_material_1.png)](k22_statue_of_a_magestic_cat,_translucent_material_1.png) | [![](k22_statue_of_a_magestic_cat,_mirror_surface_1.png)](k22_statue_of_a_magestic_cat,_mirror_surface_1.png) | [![](k22_statue_of_a_magestic_cat,_reflection_in_the_lake_1.png)](k22_statue_of_a_magestic_cat,_reflection_in_the_lake_1.png) | [![](k22_statue_of_a_magestic_cat,_rough_stone_1.png)](k22_statue_of_a_magestic_cat,_rough_stone_1.png) | [![](k22_statue_of_a_magestic_cat,_wood_1.png)](k22_statue_of_a_magestic_cat,_wood_1.png)
+[![](k22_statue_of_a_magestic_cat,_translucent_material_2.png)](k22_statue_of_a_magestic_cat,_translucent_material_2.png) | [![](k22_statue_of_a_magestic_cat,_mirror_surface_2.png)](k22_statue_of_a_magestic_cat,_mirror_surface_2.png) | [![](k22_statue_of_a_magestic_cat,_reflection_in_the_lake_2.png)](k22_statue_of_a_magestic_cat,_reflection_in_the_lake_2.png) | [![](k22_statue_of_a_magestic_cat,_rough_stone_2.png)](k22_statue_of_a_magestic_cat,_rough_stone_2.png) | [![](k22_statue_of_a_magestic_cat,_wood_2.png)](k22_statue_of_a_magestic_cat,_wood_2.png)
+statue of a magestic cat, translucent material | statue of a magestic cat, mirror surface | statue of a magestic cat, reflection in the lake | statue of a magestic cat, rough stone | statue of a magestic cat, wood
 
 ### Flux
 
-![](flux_a_statue_of_a_magestic_cat_inside_the_museum,_translucent_material_0.png) | ![](flux_a_statue_of_a_magestic_cat_inside_the_museum,_rough_stone_material_0.png) | ![](flux_a_statue_of_a_magestic_cat_inside_the_museum,_wood_material_0.png)
------|-----|-----
-a statue of a magestic cat inside the museum, translucent material | a statue of a magestic cat inside the museum, rough stone material | a statue of a magestic cat inside the museum, wood material
+[![](flux_statue_of_a_magestic_cat,_translucent_material_0.png)](flux_statue_of_a_magestic_cat,_translucent_material_0.png) | [![](flux_statue_of_a_magestic_cat,_mirror_surface_0.png)](flux_statue_of_a_magestic_cat,_mirror_surface_0.png) | [![](flux_statue_of_a_magestic_cat,_reflection_in_the_lake_0.png)](flux_statue_of_a_magestic_cat,_reflection_in_the_lake_0.png) | [![](flux_statue_of_a_magestic_cat,_rough_stone_0.png)](flux_statue_of_a_magestic_cat,_rough_stone_0.png) | [![](flux_statue_of_a_magestic_cat,_wood_0.png)](flux_statue_of_a_magestic_cat,_wood_0.png)
+-----|-----|-----|-----|-----
+statue of a magestic cat, translucent material | statue of a magestic cat, mirror surface | statue of a magestic cat, reflection in the lake | statue of a magestic cat, rough stone | statue of a magestic cat, wood
 
 ### Kandinsky 3
 
-![](k3_a_statue_of_a_magestic_cat_inside_the_museum,_translucent_material_0.png) | ![](k3_a_statue_of_a_magestic_cat_inside_the_museum,_rough_stone_material_0.png) | ![](k3_a_statue_of_a_magestic_cat_inside_the_museum,_wood_material_0.png)
------|-----|-----
-a statue of a magestic cat inside the museum, translucent material | a statue of a magestic cat inside the museum, rough stone material | a statue of a magestic cat inside the museum, wood material
+[![](k3_statue_of_a_magestic_cat,_translucent_material_0.png)](k3_statue_of_a_magestic_cat,_translucent_material_0.png) | [![](k3_statue_of_a_magestic_cat,_mirror_surface_0.png)](k3_statue_of_a_magestic_cat,_mirror_surface_0.png) | [![](k3_statue_of_a_magestic_cat,_reflection_in_the_lake_0.png)](k3_statue_of_a_magestic_cat,_reflection_in_the_lake_0.png) | [![](k3_statue_of_a_magestic_cat,_rough_stone_0.png)](k3_statue_of_a_magestic_cat,_rough_stone_0.png) | [![](k3_statue_of_a_magestic_cat,_wood_0.png)](k3_statue_of_a_magestic_cat,_wood_0.png)
+-----|-----|-----|-----|-----
+statue of a magestic cat, translucent material | statue of a magestic cat, mirror surface | statue of a magestic cat, reflection in the lake | statue of a magestic cat, rough stone | statue of a magestic cat, wood
+
+## Using time references (timeline)
+
+### Yandex ART
+
+[![](YA_красивая_женщина_готовит_обед,_1970_год,_фото_0.png)](YA_красивая_женщина_готовит_обед,_1970_год,_фото_0.png) | [![](YA_красивая_женщина_готовит_обед,_2010_год,_фото_0.png)](YA_красивая_женщина_готовит_обед,_2010_год,_фото_0.png) | [![](YA_красивая_женщина_готовит_обед,_1990_год,_фото_0.png)](YA_красивая_женщина_готовит_обед,_1990_год,_фото_0.png) | [![](YA_красивая_женщина_готовит_обед,_2300_год,_фото_0.png)](YA_красивая_женщина_готовит_обед,_2300_год,_фото_0.png) | [![](YA_красивая_женщина_готовит_обед,_1930_год,_фото_0.png)](YA_красивая_женщина_готовит_обед,_1930_год,_фото_0.png) | [![](YA_красивая_женщина_готовит_обед,_23_век,_фото_0.png)](YA_красивая_женщина_готовит_обед,_23_век,_фото_0.png)
+-----|-----|-----|-----|-----|-----
+красивая женщина готовит обед, 1970 год, фото | красивая женщина готовит обед, 2010 год, фото | красивая женщина готовит обед, 1990 год, фото | красивая женщина готовит обед, 2300 год, фото | красивая женщина готовит обед, 1930 год, фото | красивая женщина готовит обед, 23 век, фото
+
+### Stable Diffusion 2
+
+[![](sd2_beautiful_woman_cooking_dinner,_1930s_0.png)](sd2_beautiful_woman_cooking_dinner,_1930s_0.png) | [![](sd2_beautiful_woman_cooking_dinner,_1970s_0.png)](sd2_beautiful_woman_cooking_dinner,_1970s_0.png) | [![](sd2_beautiful_woman_cooking_dinner,_1990s_0.png)](sd2_beautiful_woman_cooking_dinner,_1990s_0.png) | [![](sd2_beautiful_woman_cooking_dinner,_2010s_0.png)](sd2_beautiful_woman_cooking_dinner,_2010s_0.png) | [![](sd2_beautiful_woman_cooking_dinner,_2300_0.png)](sd2_beautiful_woman_cooking_dinner,_2300_0.png) | [![](sd2_beautiful_woman_cooking_dinner,_23rd_century_0.png)](sd2_beautiful_woman_cooking_dinner,_23rd_century_0.png)
+-----|-----|-----|-----|-----|-----
+[![](sd2_beautiful_woman_cooking_dinner,_1930s_1.png)](sd2_beautiful_woman_cooking_dinner,_1930s_1.png) | [![](sd2_beautiful_woman_cooking_dinner,_1970s_1.png)](sd2_beautiful_woman_cooking_dinner,_1970s_1.png) | [![](sd2_beautiful_woman_cooking_dinner,_1990s_1.png)](sd2_beautiful_woman_cooking_dinner,_1990s_1.png) | [![](sd2_beautiful_woman_cooking_dinner,_2010s_1.png)](sd2_beautiful_woman_cooking_dinner,_2010s_1.png) | [![](sd2_beautiful_woman_cooking_dinner,_2300_1.png)](sd2_beautiful_woman_cooking_dinner,_2300_1.png) | [![](sd2_beautiful_woman_cooking_dinner,_23rd_century_1.png)](sd2_beautiful_woman_cooking_dinner,_23rd_century_1.png)
+[![](sd2_beautiful_woman_cooking_dinner,_1930s_2.png)](sd2_beautiful_woman_cooking_dinner,_1930s_2.png) | [![](sd2_beautiful_woman_cooking_dinner,_1970s_2.png)](sd2_beautiful_woman_cooking_dinner,_1970s_2.png) | [![](sd2_beautiful_woman_cooking_dinner,_1990s_2.png)](sd2_beautiful_woman_cooking_dinner,_1990s_2.png) | [![](sd2_beautiful_woman_cooking_dinner,_2010s_2.png)](sd2_beautiful_woman_cooking_dinner,_2010s_2.png) | [![](sd2_beautiful_woman_cooking_dinner,_2300_2.png)](sd2_beautiful_woman_cooking_dinner,_2300_2.png) | [![](sd2_beautiful_woman_cooking_dinner,_23rd_century_2.png)](sd2_beautiful_woman_cooking_dinner,_23rd_century_2.png)
+beautiful woman cooking dinner, 1930s | beautiful woman cooking dinner, 1970s | beautiful woman cooking dinner, 1990s | beautiful woman cooking dinner, 2010s | beautiful woman cooking dinner, 2300 | beautiful woman cooking dinner, 23rd century
+
+### Stable Diffusion XL
+
+[![](sdxl_beautiful_woman_cooking_dinner,_1930s_0.png)](sdxl_beautiful_woman_cooking_dinner,_1930s_0.png) | [![](sdxl_beautiful_woman_cooking_dinner,_1970s_0.png)](sdxl_beautiful_woman_cooking_dinner,_1970s_0.png) | [![](sdxl_beautiful_woman_cooking_dinner,_1990s_0.png)](sdxl_beautiful_woman_cooking_dinner,_1990s_0.png) | [![](sdxl_beautiful_woman_cooking_dinner,_2010s_0.png)](sdxl_beautiful_woman_cooking_dinner,_2010s_0.png) | [![](sdxl_beautiful_woman_cooking_dinner,_2300_0.png)](sdxl_beautiful_woman_cooking_dinner,_2300_0.png) | [![](sdxl_beautiful_woman_cooking_dinner,_23rd_century_0.png)](sdxl_beautiful_woman_cooking_dinner,_23rd_century_0.png)
+-----|-----|-----|-----|-----|-----
+[![](sdxl_beautiful_woman_cooking_dinner,_1930s_1.png)](sdxl_beautiful_woman_cooking_dinner,_1930s_1.png) | [![](sdxl_beautiful_woman_cooking_dinner,_1970s_1.png)](sdxl_beautiful_woman_cooking_dinner,_1970s_1.png) | [![](sdxl_beautiful_woman_cooking_dinner,_1990s_1.png)](sdxl_beautiful_woman_cooking_dinner,_1990s_1.png) | [![](sdxl_beautiful_woman_cooking_dinner,_2010s_1.png)](sdxl_beautiful_woman_cooking_dinner,_2010s_1.png) | [![](sdxl_beautiful_woman_cooking_dinner,_2300_1.png)](sdxl_beautiful_woman_cooking_dinner,_2300_1.png) | [![](sdxl_beautiful_woman_cooking_dinner,_23rd_century_1.png)](sdxl_beautiful_woman_cooking_dinner,_23rd_century_1.png)
+[![](sdxl_beautiful_woman_cooking_dinner,_1930s_2.png)](sdxl_beautiful_woman_cooking_dinner,_1930s_2.png) | [![](sdxl_beautiful_woman_cooking_dinner,_1970s_2.png)](sdxl_beautiful_woman_cooking_dinner,_1970s_2.png) | [![](sdxl_beautiful_woman_cooking_dinner,_1990s_2.png)](sdxl_beautiful_woman_cooking_dinner,_1990s_2.png) | [![](sdxl_beautiful_woman_cooking_dinner,_2010s_2.png)](sdxl_beautiful_woman_cooking_dinner,_2010s_2.png) | [![](sdxl_beautiful_woman_cooking_dinner,_2300_2.png)](sdxl_beautiful_woman_cooking_dinner,_2300_2.png) | [![](sdxl_beautiful_woman_cooking_dinner,_23rd_century_2.png)](sdxl_beautiful_woman_cooking_dinner,_23rd_century_2.png)
+beautiful woman cooking dinner, 1930s | beautiful woman cooking dinner, 1970s | beautiful woman cooking dinner, 1990s | beautiful woman cooking dinner, 2010s | beautiful woman cooking dinner, 2300 | beautiful woman cooking dinner, 23rd century
+
+### Kandinsky 2
+
+[![](k22_beautiful_woman_cooking_dinner,_1930s_0.png)](k22_beautiful_woman_cooking_dinner,_1930s_0.png) | [![](k22_beautiful_woman_cooking_dinner,_1970s_0.png)](k22_beautiful_woman_cooking_dinner,_1970s_0.png) | [![](k22_beautiful_woman_cooking_dinner,_1990s_0.png)](k22_beautiful_woman_cooking_dinner,_1990s_0.png) | [![](k22_beautiful_woman_cooking_dinner,_2010s_0.png)](k22_beautiful_woman_cooking_dinner,_2010s_0.png) | [![](k22_beautiful_woman_cooking_dinner,_2300_0.png)](k22_beautiful_woman_cooking_dinner,_2300_0.png) | [![](k22_beautiful_woman_cooking_dinner,_23rd_century_0.png)](k22_beautiful_woman_cooking_dinner,_23rd_century_0.png)
+-----|-----|-----|-----|-----|-----
+[![](k22_beautiful_woman_cooking_dinner,_1930s_1.png)](k22_beautiful_woman_cooking_dinner,_1930s_1.png) | [![](k22_beautiful_woman_cooking_dinner,_1970s_1.png)](k22_beautiful_woman_cooking_dinner,_1970s_1.png) | [![](k22_beautiful_woman_cooking_dinner,_1990s_1.png)](k22_beautiful_woman_cooking_dinner,_1990s_1.png) | [![](k22_beautiful_woman_cooking_dinner,_2010s_1.png)](k22_beautiful_woman_cooking_dinner,_2010s_1.png) | [![](k22_beautiful_woman_cooking_dinner,_2300_1.png)](k22_beautiful_woman_cooking_dinner,_2300_1.png) | [![](k22_beautiful_woman_cooking_dinner,_23rd_century_1.png)](k22_beautiful_woman_cooking_dinner,_23rd_century_1.png)
+[![](k22_beautiful_woman_cooking_dinner,_1930s_2.png)](k22_beautiful_woman_cooking_dinner,_1930s_2.png) | [![](k22_beautiful_woman_cooking_dinner,_1970s_2.png)](k22_beautiful_woman_cooking_dinner,_1970s_2.png) | [![](k22_beautiful_woman_cooking_dinner,_1990s_2.png)](k22_beautiful_woman_cooking_dinner,_1990s_2.png) | [![](k22_beautiful_woman_cooking_dinner,_2010s_2.png)](k22_beautiful_woman_cooking_dinner,_2010s_2.png) | [![](k22_beautiful_woman_cooking_dinner,_2300_2.png)](k22_beautiful_woman_cooking_dinner,_2300_2.png) | [![](k22_beautiful_woman_cooking_dinner,_23rd_century_2.png)](k22_beautiful_woman_cooking_dinner,_23rd_century_2.png)
+beautiful woman cooking dinner, 1930s | beautiful woman cooking dinner, 1970s | beautiful woman cooking dinner, 1990s | beautiful woman cooking dinner, 2010s | beautiful woman cooking dinner, 2300 | beautiful woman cooking dinner, 23rd century
+
+### Flux
+
+[![](flux_beautiful_woman_cooking_dinner,_1930s_0.png)](flux_beautiful_woman_cooking_dinner,_1930s_0.png) | [![](flux_beautiful_woman_cooking_dinner,_1970s_0.png)](flux_beautiful_woman_cooking_dinner,_1970s_0.png) | [![](flux_beautiful_woman_cooking_dinner,_1990s_0.png)](flux_beautiful_woman_cooking_dinner,_1990s_0.png) | [![](flux_beautiful_woman_cooking_dinner,_2010s_0.png)](flux_beautiful_woman_cooking_dinner,_2010s_0.png) | [![](flux_beautiful_woman_cooking_dinner,_2300_0.png)](flux_beautiful_woman_cooking_dinner,_2300_0.png) | [![](flux_beautiful_woman_cooking_dinner,_23rd_century_0.png)](flux_beautiful_woman_cooking_dinner,_23rd_century_0.png)
+-----|-----|-----|-----|-----|-----
+beautiful woman cooking dinner, 1930s | beautiful woman cooking dinner, 1970s | beautiful woman cooking dinner, 1990s | beautiful woman cooking dinner, 2010s | beautiful woman cooking dinner, 2300 | beautiful woman cooking dinner, 23rd century
+
+### Kandinsky 3
+
+[![](k3_beautiful_woman_cooking_dinner,_1930s_0.png)](k3_beautiful_woman_cooking_dinner,_1930s_0.png) | [![](k3_beautiful_woman_cooking_dinner,_1970s_0.png)](k3_beautiful_woman_cooking_dinner,_1970s_0.png) | [![](k3_beautiful_woman_cooking_dinner,_1990s_0.png)](k3_beautiful_woman_cooking_dinner,_1990s_0.png) | [![](k3_beautiful_woman_cooking_dinner,_2010s_0.png)](k3_beautiful_woman_cooking_dinner,_2010s_0.png) | [![](k3_beautiful_woman_cooking_dinner,_2300_0.png)](k3_beautiful_woman_cooking_dinner,_2300_0.png) | [![](k3_beautiful_woman_cooking_dinner,_23rd_century_0.png)](k3_beautiful_woman_cooking_dinner,_23rd_century_0.png)
+-----|-----|-----|-----|-----|-----
+beautiful woman cooking dinner, 1930s | beautiful woman cooking dinner, 1970s | beautiful woman cooking dinner, 1990s | beautiful woman cooking dinner, 2010s | beautiful woman cooking dinner, 2300 | beautiful woman cooking dinner, 23rd century
+
+## Using camera angles (angle)
+
+### Yandex ART
+
+[![](YA_низкий_ракурс,_кинематографичная_фотография_группы_друзей,_отдыхающих_у_костра_под_звёздами_0.png)](YA_низкий_ракурс,_кинематографичная_фотография_группы_друзей,_отдыхающих_у_костра_под_звёздами_0.png) | [![](YA_широкий_план,_кинематографичная_фотография_группы_друзей,_отдыхающих_у_костра_под_звёздами_0.png)](YA_широкий_план,_кинематографичная_фотография_группы_друзей,_отдыхающих_у_костра_под_звёздами_0.png) | [![](YA_высокий_ракурс,_кинематографичная_фотография_группы_друзей,_отдыхающих_у_костра_под_звёздами_0.png)](YA_высокий_ракурс,_кинематографичная_фотография_группы_друзей,_отдыхающих_у_костра_под_звёздами_0.png) | [![](YA_крупный_план,_кинематографичная_фотография_группы_друзей,_отдыхающих_у_костра_под_звёздами_0.png)](YA_крупный_план,_кинематографичная_фотография_группы_друзей,_отдыхающих_у_костра_под_звёздами_0.png)
+-----|-----|-----|-----
+низкий ракурс, кинематографичная фотография группы друзей, отдыхающих у костра под звёздами | широкий план, кинематографичная фотография группы друзей, отдыхающих у костра под звёздами | высокий ракурс, кинематографичная фотография группы друзей, отдыхающих у костра под звёздами | крупный план, кинематографичная фотография группы друзей, отдыхающих у костра под звёздами
+
+### Stable Diffusion 2
+
+[![](sd2_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](sd2_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](sd2_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](sd2_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](sd2_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](sd2_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](sd2_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](sd2_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)
+-----|-----|-----|-----
+[![](sd2_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)](sd2_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png) | [![](sd2_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)](sd2_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png) | [![](sd2_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)](sd2_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png) | [![](sd2_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)](sd2_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)
+[![](sd2_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)](sd2_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png) | [![](sd2_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)](sd2_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png) | [![](sd2_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)](sd2_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png) | [![](sd2_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)](sd2_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)
+low angle, cinematic photograph of a group of friends camping under the stars | high angle, cinematic photograph of a group of friends camping under the stars | close-up, cinematic photograph of a group of friends camping under the stars | wide shot, cinematic photograph of a group of friends camping under the stars
+
+### Stable Diffusion XL
+
+[![](sdxl_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](sdxl_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](sdxl_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](sdxl_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](sdxl_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](sdxl_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](sdxl_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](sdxl_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)
+-----|-----|-----|-----
+[![](sdxl_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)](sdxl_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png) | [![](sdxl_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)](sdxl_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png) | [![](sdxl_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)](sdxl_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png) | [![](sdxl_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)](sdxl_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)
+[![](sdxl_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)](sdxl_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png) | [![](sdxl_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)](sdxl_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png) | [![](sdxl_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)](sdxl_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png) | [![](sdxl_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)](sdxl_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)
+low angle, cinematic photograph of a group of friends camping under the stars | high angle, cinematic photograph of a group of friends camping under the stars | close-up, cinematic photograph of a group of friends camping under the stars | wide shot, cinematic photograph of a group of friends camping under the stars
+
+### Kandinsky 2
+
+[![](k22_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](k22_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](k22_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](k22_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](k22_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](k22_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](k22_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](k22_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)
+-----|-----|-----|-----
+[![](k22_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)](k22_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png) | [![](k22_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)](k22_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png) | [![](k22_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)](k22_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png) | [![](k22_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)](k22_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_1.png)
+[![](k22_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)](k22_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png) | [![](k22_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)](k22_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png) | [![](k22_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)](k22_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png) | [![](k22_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)](k22_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_2.png)
+low angle, cinematic photograph of a group of friends camping under the stars | high angle, cinematic photograph of a group of friends camping under the stars | close-up, cinematic photograph of a group of friends camping under the stars | wide shot, cinematic photograph of a group of friends camping under the stars
+
+### Flux
+
+[![](flux_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](flux_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](flux_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](flux_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](flux_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](flux_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](flux_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](flux_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)
+-----|-----|-----|-----
+low angle, cinematic photograph of a group of friends camping under the stars | high angle, cinematic photograph of a group of friends camping under the stars | close-up, cinematic photograph of a group of friends camping under the stars | wide shot, cinematic photograph of a group of friends camping under the stars
+
+### Kandinsky 3
+
+[![](k3_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](k3_low_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](k3_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](k3_high_angle,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](k3_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](k3_close-up,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png) | [![](k3_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)](k3_wide_shot,_cinematic_photograph_of_a_group_of_friends_camping_under_the_stars_0.png)
+-----|-----|-----|-----
+low angle, cinematic photograph of a group of friends camping under the stars | high angle, cinematic photograph of a group of friends camping under the stars | close-up, cinematic photograph of a group of friends camping under the stars | wide shot, cinematic photograph of a group of friends camping under the stars
 
